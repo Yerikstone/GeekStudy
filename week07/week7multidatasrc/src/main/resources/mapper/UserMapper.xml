@@ -2,12 +2,17 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.example.week7multidatasrc.mapper.UserMapper">
 
-    <resultMap id="baseResultMap" type="com.example.week7multidatasrc.entity.User">
+    <resultMap id="baseMap" type="com.example.week7multidatasrc.entity.User">
         <id column="id" property="id" javaType="java.lang.Long" jdbcType="INTEGER"></id>
-        <result column="name" property="name" javaType="java.lang.String" jdbcType="VARCHAR"></result>
+        <result column="user_name" property="userName" javaType="java.lang.String" jdbcType="VARCHAR"></result>
+        <result column="user_pwd" property="userPwd" javaType="java.lang.String" jdbcType="VARCHAR"></result>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="create_user" property="createUser" javaType="java.lang.String" jdbcType="VARCHAR"></result>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+        <result column="update_user" property="updateUser" javaType="java.lang.String" jdbcType="VARCHAR"></result>
     </resultMap>
 
-    <select id="list" resultMap="baseResultMap">
+    <select id="list" resultMap="baseMap">
         SELECT *
         FROM t_user_2
     </select>
