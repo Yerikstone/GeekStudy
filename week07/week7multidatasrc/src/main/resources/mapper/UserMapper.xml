@@ -14,6 +14,6 @@
 
     <select id="list" resultMap="baseMap">
         SELECT *
-        FROM t_user_2
+        FROM user
     </select>
 </mapper>
