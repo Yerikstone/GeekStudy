@@ -1,0 +1,40 @@
+## 分库分表
+
+create schema mall_0;
+create schema mall_1;
+
+CREATE TABLE IF NOT EXISTS mall_0.s_order_0 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_1 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_2 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_3 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_4 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_5 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_6 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_7 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_8 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_9 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_10 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_11 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_12 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_13 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_14 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_0.s_order_15 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_0 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_1 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_2 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_3 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_4 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_5 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_6 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_7 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_8 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_9 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_10 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_11 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_12 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_13 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_14 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS mall_1.s_order_15 (id int(32) NOT NULL AUTO_INCREMENT,order_id bigint(32) NOT NULL,PRIMARY KEY (id));
+
+
+

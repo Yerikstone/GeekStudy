@@ -1,0 +1,9 @@
+
+
+mybatis:
+  type-aliases-package: com.geek.mapper
+  mapperLocations: classpath:mapper/*Mapper.xml
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
