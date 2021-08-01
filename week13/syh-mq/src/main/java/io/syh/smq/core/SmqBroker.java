@@ -1,4 +1,4 @@
-package io.kimmking.kmq.core;
+package io.syh.smq.core;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

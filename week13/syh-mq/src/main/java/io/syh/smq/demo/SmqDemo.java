@@ -1,10 +1,6 @@
-package io.kimmking.kmq.demo;
+package io.syh.smq.demo;
 
-import io.kimmking.kmq.core.KmqBroker;
-import io.kimmking.kmq.core.KmqConsumer;
-import io.kimmking.kmq.core.KmqMessage;
-import io.kimmking.kmq.core.KmqProducer;
-
+import io.syh.smq.core.KmqMessage;
 import lombok.SneakyThrows;
 
 public class SmqDemo {
@@ -12,7 +8,7 @@ public class SmqDemo {
     @SneakyThrows
     public static void main(String[] args) {
 
-        String topic = "kk.test";
+        String topic = "syh.test";
         SmqBroker broker = new SmqBroker();
         broker.createTopic(topic);
 
