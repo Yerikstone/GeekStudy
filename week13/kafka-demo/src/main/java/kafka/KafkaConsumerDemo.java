@@ -7,6 +7,7 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
+import java.util.concurrent.ThreadPoolExecutor;
 
 public class KafkaConsumerDemo {
 
@@ -25,4 +26,6 @@ public class KafkaConsumerDemo {
             }
         }
     }
+
+    ThreadPoolExecutor
 }
